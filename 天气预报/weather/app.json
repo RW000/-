@@ -1,0 +1,21 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/city/city",
+    "pages/contact/contact"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "天气预报",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#efefef"
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于天气预报定位" 
+    }
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
